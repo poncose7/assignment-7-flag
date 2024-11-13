@@ -1,0 +1,164 @@
+*{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bangladeh-flag{
+
+/* border: 2px solid red; */
+
+height: 350px;
+
+width: 700px;
+
+margin: 30px auto;
+
+position: relative;
+
+background: green;
+}
+
+.box{
+
+position: absolute;
+
+background: red;
+
+width: 200px;
+
+height: 200px;
+
+border-radius: 50%;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+}
+
+
+.bangladeh-flag .stand{
+
+width: 70px;
+
+height: 562px;
+
+background: #312e28db;
+
+position: absolute;
+
+top: -10px;
+
+left: -10px;
+
+z-index: -1;
+}
+
+.bangladeh-flag .box-2{
+
+width: 150px;
+
+height: 100px;
+
+background: #517151;
+
+position: absolute;
+
+bottom: 0;
+
+left: 50%;
+
+transform: translateX(-50%);
+
+border-radius: 20px;
+}
+
+.iceland-flag{
+
+background: #082984;
+
+width: 581px;
+
+height: 350px;
+
+margin: 250px auto;
+position: relative;
+}
+
+.line-1{
+
+background-color: #DE1018;
+
+height: 100%;
+
+width: 50px;
+
+position: absolute;
+
+top: 0;
+
+left: 200px;
+z-index: 2;
+}
+
+.line-1-white-1{
+
+ background-color:#fff;
+
+height: 100%;
+
+width: 100px;
+
+position: absolute;
+
+top: 0;
+
+left: 175px;
+z-index: 0;
+
+
+}
+
+.line-2{
+
+    background-color: #DE1018;
+
+    height: 50px;
+    
+    width: 500px;
+    
+    position: absolute;
+    
+    top: 50%;
+    
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+
+}
+
+
+.line-2-white-1{
+
+    background-color:#fff;
+
+    height: 100px;
+    
+    width: 500px;
+    
+    position: absolute;
+    
+    top: 50%;
+    
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 0;
+
+}
+
+
+
